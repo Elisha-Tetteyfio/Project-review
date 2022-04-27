@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient(
+        115deg, rgb(100,70,255,0.6),rgb(100,70,255,0.6)),
+        url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 400;
+    background-attachment: fixed;
+    font-family: Verdana;  
+    text-align: center;
+}
+form {
+    background-color: rgb(41, 34, 71,0.7);
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px 20px;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 1em;
+    color: white;
+    text-align: left;
+}
+
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    height: 5em;
+}
+
+
+.form-control input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    text-align: left;
+}
+#name, #email, #age, #role{
+    width: 100%;
+    height: 2em;
+    margin-bottom: 2em;
+}
+button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top : 1em;
+    margin-bottom: 20px;
+}
